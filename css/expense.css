@@ -1,0 +1,210 @@
+/* bg yellow */
+.form-add-expense-container {
+    background-color: #FFE09D;
+}
+
+/* semi-bold */
+.input-box-text, .result-name, .result-amt, .result-date, .total-price  {
+    font-weight: 600;
+}
+
+/* font-sixe 15px */
+.input-box-text, .table-head-name, .result-date, .result-name, .result-amt {
+    font-size: 15px;
+}
+
+/* shadow */
+input[type=submit] {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.header {
+    color: #83A189;
+    font-weight: 700;
+    font-size: 32px;
+}
+.table-head-name {
+    border: none;
+    font-weight: 500;
+    margin-left: 2%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid > span {
+    padding: 8px 4px;
+}
+span {
+    border-bottom: 0.8px solid rgba(128, 128, 128, 0.301);
+}
+.tablecon {
+    background-color: white;
+    border-radius: 16px;
+    margin: 3% 0 1.5% 0;
+    padding: 6px 5px;
+}
+
+.tb-container {
+    border-radius: 16px;
+    background-color: white;
+    padding: 1% 1% 1% 2%;
+}
+
+/* result output */
+
+.result-date {
+    color: #9B9A9A;
+}
+
+.result-name {
+    color: #D0542E;
+}
+
+.result-amt {
+    color: #83A189;
+}
+
+.fix-type, .ext-type, .type {
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    padding: 1.2% 2.5%;
+}
+.f-type {
+    background-color: #e1b3773b;
+    color: #E1B377;
+}
+.u-type {
+    background-color: #c45b5238;
+    color: #C45B52;
+}
+.l-type {
+    background-color: #a7b7da3b;
+    color: #A7B7DA;
+}
+.ext-type, .e-type {
+    background-color: #83a18934;
+    color: #83A189;
+}
+.fix-type, .b-type {
+    background-color: #f496713b;
+    color: #f49671;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+}
+.total-head {
+    color: #83A189;
+}
+.total-price {
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #9B9A9A;
+}
+.addin-img {
+    position: absolute;
+    top: 20%;
+    left: 67%;
+}
+.addinimg {
+    position: absolute;
+    top: 11%;
+    left: 58%;
+}
+
+/* button */
+.button-container {
+    margin-top: 1%;
+    padding: 18px 0 5px 0;
+}
+input[type=button], input[type=submit] {
+    color: white;
+    border: none;
+    margin-right: 2px;
+    border-radius: 15px;
+    width: 110px;
+    height: 27px;
+}
+input[type=button] {
+    background-color: #BCCEBF;
+}
+input[type=submit] {
+    background-color: #E76B39;
+    margin-top: 4%;
+}
+
+/* text box */
+.int-box {
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.419);
+    outline: none;
+    height: 25px;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    border-radius: 20px;
+}
+
+.int-form {
+    background-color: #f7e4ba;
+    width: 80%;
+    border-radius: 18px;
+    padding: 1% 2%;
+}
+
+.int{
+    padding-right: 20px;
+}
+
+.input-box-text {
+    color: #737373;
+    margin-bottom: 5%
+}
+
+/* dropdown */
+select {
+    margin-top: 10%;
+    padding: 1% 2%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.419);
+}
+
+
+/* add expense */
+.form-add-expense-container {
+    width: 80%;
+    height: 25%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5%;
+}
+.add-expense-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 2% 5% 4%;
+}
+.add-expense-head {
+    color: #D0542E;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 2% 0 0 4%;
+}
+
+/* resize */
+
+.expense-table-container {
+    width: 957px;
+    height: 252px;
+}

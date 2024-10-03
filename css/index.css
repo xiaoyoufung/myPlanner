@@ -1,0 +1,247 @@
+/* white bg */
+.welcome-container,.academic-container, .timetable-container, .wallet-container {
+    background-color: #FFF;
+}
+
+/* corner */
+.welcome-container, .academic-container, .yellow-container, .timetable-container, .wallet-container {
+    border-radius: 15px;
+}
+
+/* div position */
+.welcome-container, .academic-container, .yellow-container, .wallet-container, .timetable-detail {
+    position: relative;
+}
+    
+/* flex row */
+.top-section, .buttom-section, .wallet-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* bold */
+.academic-head, .timetable-head, .wallet-head, .total-price, .wallet-header, .num-text, .num-text-outcome, .num-text-income {
+    font-weight: 700;
+}
+
+/* img position */
+.img-one, .img-two, .img-three, .img-four, .wallet-icon-red, .wallet-icon-green {
+    position: absolute;
+}
+
+/* shadow */
+.academic-container, .yellow-timetable, .wallet-container, .timetable-container, .welcome-container {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+/* top section */
+.top-section {
+    margin-top: -1.5%;
+}
+
+/* Welcome Back */
+.welcome-container {
+    width: 430px;
+    height: 125px;
+    margin: 0% 2% 0 0;
+}
+
+.welcome-head {
+    color: #D0542E;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5% 2% 0 0;
+}
+
+.welcome-text, .academic-text, .timetable-text {
+    color: #545454;
+    font-weight: 500;
+    font-size: 16px;
+}
+.welcome-head, .welcome-text {
+    padding-left: 20px;
+}
+
+.img-one {
+    top: -25%;
+    right: 6%;
+}
+
+
+/* Academic */
+.academic-container {
+    width: 590px;
+    height: 138px;
+    margin-left: 1%;
+}
+
+.academic-head, .timetable-head {
+    color: #83A189;
+    font-size: 30px;
+    margin: 2% 0 0 5%;
+}
+.academic-text {
+    margin: 0 0 2% 5%;
+}
+.img-two {
+    right: 8%;
+    top: -8%;
+}
+
+.more-btn, .moresmlbtn, .detail-btn {
+    color: #FFF;
+    background-color: #E76B39;
+    border: none;
+    border-radius: 6px;
+}
+
+.more-btn {
+    padding: 0.8% 5%;
+    margin: 0 0 0 5%;
+}
+
+/* Bottom Section */
+.buttom-section {
+    margin-top: 2%;
+}
+
+/* Yellow Container */
+.yellow-container {
+    width: 263px;
+    height: 562px;
+    background-color: #FFE09D;
+    margin-right: 3%;
+    margin-top: -1%;
+}
+
+.img-three {
+    left: 30%;
+    bottom: -2%;
+}
+
+/* Timetable */
+.timetable-container {
+    width: 759px;
+    height: 389px;
+}
+
+.timetable-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timetable-head {
+    margin-top: 2%;
+}
+
+.yellow-timetable {
+    background-color: #FFE09D;
+    border-radius: 10px;
+    width: 689px;
+    height: 302px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: -10%;
+}
+
+.yellow-timetable-container {
+    margin-right: 20%;
+}
+
+.yellow-timetable {
+    margin: 1% 0 0 4.5%;
+}
+.moresmlbtn, .detail-btn {
+    width: 75px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.moresmlbtn {
+    margin-top: 10%;
+    margin-left: -50%;
+}
+
+/* bottom two sec */
+.buttom-two-section {
+    margin-top: -1%;
+}
+
+
+/* wallet */
+
+.wallet-container {
+    /* margin-top: 6%; */
+    width: 758px;
+    height: 130px;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.wallet-one {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 5%;
+}
+.wallet-two, .wallet-three {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.wallet-two {
+    margin-right: 3%;
+}
+.wallet-head {
+    color: #A6A6A6;
+    font-size: 20px;
+}
+
+.total-price, .wallet-header {
+    font-size: 32px;
+    margin: 1% 0;
+}
+
+.wallet-header {
+    color: #D0542E;
+    margin-top: 3.5%;
+}
+
+.wallet-icon {
+    top: -80%;
+}
+.num-text {
+    font-size: 16px;
+}
+
+.num-text-income, .num-text-outcome {
+    font-size: 12px;
+}
+.num-text-income {
+    color: #83A189;
+}
+.num-text-outcome {
+    color: #E76B39;
+}
+.img-four {
+    right: 8%;
+    top: -20%;
+}
+
+.wallet-icon-green {
+    top: 35%;
+    left: 30.5%;
+}
+.wallet-icon-red {
+    top: 35%;
+    right: 47%;
+}
+.dropdown-icon {
+    position: absolute;
+    top: 12%;
+    right: 2%;
+}
+.dropdown-icon-top {
+    position: absolute;
+    top: 22%;
+    right: 2%;
+}
